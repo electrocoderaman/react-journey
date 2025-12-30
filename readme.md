@@ -1,16 +1,17 @@
 # React Learning Journey ⚛️
 
-This repository contains my code and exercises as I learn React. It documents my progress from understanding the basics to building functional components with hooks and Tailwind CSS.
+This repository contains my code and exercises as I learn React. It documents my progress from understanding the basics to building functional components with advanced hooks and Tailwind CSS.
 
 ## 📂 Projects Included
 
-| Project Folder        | Description                                                     | Tech Stack            |
-| :-------------------- | :-------------------------------------------------------------- | :-------------------- |
-| **01vitereact**       | Setting up a faster React environment using Vite.               | React, Vite           |
-| **customReact**       | A look under the hood at how React renders elements.            | Vanilla JS            |
-| **counter**           | A classic counter app to learn State (`useState`) and Hooks.    | React, Vite           |
-| **tailwindProps**     | Learning how to pass Props and style components using Tailwind. | React, Vite, Tailwind |
-| **backgroundChanger** | An interactive app to change background colors on click.        | React, Vite           |
+| Project Folder        | Description                                                                              | Tech Stack            |
+| :-------------------- | :--------------------------------------------------------------------------------------- | :-------------------- |
+| **01vitereact**       | Setting up a faster React environment using Vite.                                        | React, Vite           |
+| **customReact**       | A look under the hood at how React renders elements.                                     | Vanilla JS            |
+| **counter**           | A classic counter app to learn State (`useState`) and Hooks.                             | React, Vite           |
+| **tailwindProps**     | Learning how to pass Props and style components using Tailwind.                          | React, Vite, Tailwind |
+| **backgroundChanger** | An interactive app to change background colors on click.                                 | React, Vite           |
+| **passwordGenerator** | A password generator with length/character controls and copy-to-clipboard functionality. | React, Vite, Tailwind |
 
 ## 🚀 How to Run These Projects
 
@@ -20,14 +21,12 @@ All projects in this repo use **Vite**. To run a specific project locally:
     ```bash
     git clone https://github.com/electrocoderaman/react-journey.git
 
-    ```
-
 2.  **Navigate to the project folder:**
     ```bash
-    cd counter  # (or any other folder name)
+    cd passwordGenerator  # (or any other folder name)
     ```
 
-3.  **Install dependencies:**git remote add origin 
+3.  **Install dependencies:**
     ```bash
     npm install
     ```
@@ -38,12 +37,14 @@ All projects in this repo use **Vite**. To run a specific project locally:
     ```
 
 ## 🛠️ Concepts Learned
-* **Virtual DOM**: How React handles rendering.
+* **Virtual DOM**: Understanding how React handles rendering efficiently.
 * **JSX**: Writing HTML-like syntax inside JavaScript.
-* **Hooks**: Managing state with `useState`.
-* **Props**: Passing data between components.
-* **Vite**: Setting up a modern, fast development environment.
-* **Tailwind CSS**: Utility-first styling for React components.
+* **State Management**: Using `useState` to handle UI updates.
+* **Side Effects**: Using `useEffect` to synchronize components (e.g., generating password on load).
+* **Optimization**: Using `useCallback` to cache functions and prevent unnecessary re-renders.
+* **Refs**: Using `useRef` to access DOM elements directly (used for the clipboard feature).
+* **Props**: Passing data between parent and child components.
+* **Tailwind CSS**: Utility-first styling for building modern UIs quickly.
 
 ---
 *This repository is a work in progress (WIP).*
