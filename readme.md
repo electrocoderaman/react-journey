@@ -18,7 +18,8 @@ All projects in this repo use **Vite**. To run a specific project locally:
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/your-username/react-course-projects.git](https://github.com/your-username/react-course-projects.git)
+    git clone https://github.com/electrocoderaman/react-journey.git
+
     ```
 
 2.  **Navigate to the project folder:**
@@ -26,7 +27,7 @@ All projects in this repo use **Vite**. To run a specific project locally:
     cd counter  # (or any other folder name)
     ```
 
-3.  **Install dependencies:**
+3.  **Install dependencies:**git remote add origin 
     ```bash
     npm install
     ```
