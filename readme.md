@@ -12,6 +12,7 @@ This repository contains my code and exercises as I learn React. It documents my
 | **tailwindProps**     | Learning how to pass Props and style components using Tailwind.                          | React, Vite, Tailwind |
 | **backgroundChanger** | An interactive app to change background colors on click.                                 | React, Vite           |
 | **passwordGenerator** | A password generator with length/character controls and copy-to-clipboard functionality. | React, Vite, Tailwind |
+| **currencyConverter** | Real-time currency conversion using custom hooks and API integration.                    | React, Vite, Tailwind |
 
 ## 🚀 How to Run These Projects
 
@@ -20,10 +21,11 @@ All projects in this repo use **Vite**. To run a specific project locally:
 1.  **Clone the repository:**
     ```bash
     git clone https://github.com/electrocoderaman/react-journey.git
+    ```
 
 2.  **Navigate to the project folder:**
     ```bash
-    cd passwordGenerator  # (or any other folder name)
+    cd currencyConverter  # (or any other folder name)
     ```
 
 3.  **Install dependencies:**
@@ -45,6 +47,8 @@ All projects in this repo use **Vite**. To run a specific project locally:
 * **Refs**: Using `useRef` to access DOM elements directly (used for the clipboard feature).
 * **Props**: Passing data between parent and child components.
 * **Tailwind CSS**: Utility-first styling for building modern UIs quickly.
+* **Custom Hooks**: Creating reusable logic functions (e.g., `useCurrencyInfo` for fetching data).
+* **API Integration**: Fetching external data from JSON endpoints and handling responses.
 
 ---
 *This repository is a work in progress (WIP).*
