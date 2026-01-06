@@ -14,6 +14,7 @@ This repository contains my code and exercises as I learn React. It documents my
 | **passwordGenerator** | A password generator with length/character controls and copy-to-clipboard functionality. | React, Vite, Tailwind |
 | **currencyConverter** | Real-time currency conversion using custom hooks and API integration.                    | React, Vite, Tailwind |
 | **themeSwitcher**     | A theme toggler (Light/Dark mode) using the Context API to manage global state.          | React, Vite, Tailwind |
+| **todoList**          | A Todo management app with CRUD operations using Context API and Local Storage.          | React, Vite, Tailwind |
 
 ## 🚀 How to Run These Projects
 
