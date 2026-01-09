@@ -1,6 +1,6 @@
 # React Learning Journey ⚛️
 
-This repository contains my code and exercises as I learn React. It documents my progress from understanding the basics to building functional components with advanced hooks, Context API, and Tailwind CSS.
+This repository contains my code and exercises as I learn React. It documents my progress from understanding the basics to building functional components with advanced hooks, Context API, Redux Toolkit, and Tailwind CSS.
 
 ## 📂 Projects Included
 
@@ -15,30 +15,31 @@ This repository contains my code and exercises as I learn React. It documents my
 | **currencyConverter** | Real-time currency conversion using custom hooks and API integration.                    | React, Vite, Tailwind |
 | **themeSwitcher**     | A theme toggler (Light/Dark mode) using the Context API to manage global state.          | React, Vite, Tailwind |
 | **todoList**          | A Todo management app with CRUD operations using Context API and Local Storage.          | React, Vite, Tailwind |
+| **reduxToolkitTodo**  | A scalable Todo app demonstrating state management using Redux Toolkit slices and store. | React, Redux Toolkit  |
 
 ## 🚀 How to Run These Projects
 
 All projects in this repo use **Vite**. To run a specific project locally:
 
-1.  **Clone the repository:**
-    ```bash
-    git clone https://github.com/electrocoderaman/react-journey.git
-    ```
+1.  **Clone the repository:**
+    ```bash
+     git clone https://github.com/electrocoderaman/react-journey.git
+    ```
 
-2.  **Navigate to the project folder:**
-    ```bash
-    cd themeSwitcher  # (or any other folder name)
-    ```
+2.  **Navigate to the project folder:**
+    ```bash
+    cd reduxToolkitTodo  # (or any other folder name)
+    ```
 
-3.  **Install dependencies:**
-    ```bash
-    npm install
-    ```
+3.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
 
-4.  **Run the development server:**
-    ```bash
-    npm run dev
-    ```
+4.  **Run the development server:**
+    ```bash
+    npm run dev
+    ```
 
 ## 🛠️ Concepts Learned
 * **Virtual DOM**: Understanding how React handles rendering efficiently.
@@ -49,6 +50,8 @@ All projects in this repo use **Vite**. To run a specific project locally:
 * **Refs**: Using `useRef` to access DOM elements directly (used for the clipboard feature).
 * **Props**: Passing data between parent and child components.
 * **Context API**: Managing global state (like theme mode) to avoid prop drilling.
+* **Redux Toolkit**: Implementing complex global state management with `configureStore` and `createSlice`.
+* **React-Redux**: Connecting components to the store using `Provider`, `useSelector` (reading data), and `useDispatch` (sending actions).
 * **Tailwind CSS**: Utility-first styling for building modern UIs quickly (including Dark Mode configuration).
 * **Custom Hooks**: Creating reusable logic functions (e.g., `useCurrencyInfo` for fetching data).
 * **API Integration**: Fetching external data from JSON endpoints and handling responses.
